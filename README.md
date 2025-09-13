@@ -21,8 +21,8 @@ Para que este código se ejecute correctamente son necesarios los siguientes req
 - [Anaconda o miniconda](https://www.anaconda.com/download)
 - [VS Code](https://code.visualstudio.com/) o similar con el plugin de python y de jupyter notebooks
 - Un kernel de python con  los paquetes "opencv-python" y "matplotlib"
-### Instrucciones de instalación de dependencias y ejecución
-#### Windows
+## Instrucciones de instalación de dependencias y ejecución
+### Windows
 1. Abrir una "anaconda prompt" e introducir 
 ```cmd
 conda create --name ENV_NAM python=3.11.5
@@ -38,7 +38,7 @@ conda install -n ENV_NAM ipykernel --update-deps --force-reinstall
 4. Abrir el fichero [Entrega1.ipynb](./Entrega1.ipynb)
 5. Asignar el kernel "ENV_NAM" creado antes al fichero.
 6. Ejecutar
-#### MacOS/Linux
+### MacOS/Linux
 1. Abrir una terminal e introducir 
 ```bash
 anaconda
@@ -55,3 +55,7 @@ conda install -n ENV_NAM ipykernel --update-deps --force-reinstall
 4. Abrir el fichero [Entrega1.ipynb](./Entrega1.ipynb)
 5. Asignar el kernel "ENV_NAM" creado antes al fichero.
 6. Ejecutar
+## Herramientas Externas
+Para el desarrollo de estos ejercicios hemos hecho uso de la herramiento de inteligencia artificial copilot integrada en vs code para preguntar sobre los erroresque nos iban surgiendo
+## Incidencias
+En macOS funciona correctamente todo pero cada vez que se intenta cerrar la cámara, el kernel crashea. Parece ser que al cerrar el programa, la memoria no se libera.
